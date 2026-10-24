@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             margin: 0;
+        padding: 0;
+        /* font-family: Arial, sans-serif; */
+        height: 100vh;
+        background-image: url("https://images.unsplash.com/photo-1743657166981-8d8e11d03c3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxpZ2h0JTIwYmx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D") ;
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;  
+       
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+        }
+         a{
+  text-decoration: none;
+   font-size: 20px;
+   color:rgb(165, 241, 22);
+}
+ a{
+  text-decoration: none;
+   font-size: 20px;
+   color:rgb(165, 241, 22);
+}
+ button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 14px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(135deg, #09e074, #0072ff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* transition: transform 0.3s, box-shadow 0.3s; */
+   margin-top: 580px;  
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="nt"></div>
+    
+    <form action="">
+        <table border="2" cellpadding="5" cellspacing="5">
+            <TR>
+                <TD colspan="2" align="center"> <h3>Employee Registration Form</h3></TD>
+            </TR>
+            
+               
+
+           
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" placeholder="Enter Full Name"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Department</td>
+                <td><select name="" id="" required>
+                <option value="Frontend">Frontend</option>
+                <option value="">Backend</option>
+                
+            </select></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+        <td> <input type="radio" id="male" name="gender" value="MALE" size="5" required />
+        <label for="male"> Male</label>
+
+         <input type="radio" id="female" name="gender" value="FEMALE" size="5" required />
+        <label for="female">Female</label></td>
+            </tr>
+            <tr>
+                <td>Skills</td>
+              
+              <td><input type="checkbox" value="HTMl" id="html"><label for="html">HTML</label>
+                <input type="checkbox" value="CSS" id="css"><label for="css">CSS</label>
+                <input type="checkbox" value="Javascript" id="javascript"><label for="javascript">Javascript</label></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><textarea name="Message" rows="4" cols="20" placeholder="Message" required></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" placeholder="Submit Form"></td>
+            </tr>
+        </table>
+     </form>
+
+
+    <a href="../index.html"><button>Go Back</button></a>
+    
+    </div>
+</body>
+</html>
